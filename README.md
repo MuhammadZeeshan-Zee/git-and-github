@@ -90,3 +90,21 @@ if (isAwesome){
 }
 
 ```
+# 16. Escaping:
+In Markdown, you will often need to include characters in your text (for example, an asterisk) that may be part of the Markdown syntax.   
+You need to “escape” these characters, so your Markdown application doesn’t read these characters as formatting.     
+You escape characters in Markdown using a backslash before the character, with no space in between.   
+Syntax:
+
+\ backslash
+` backtick
+* asterisk
+_ underscore
+{} curly braces
+[] square brackets
+() parentheses
+#hash symbol
++ plus sign
+– minus sign (hyphen)
+. dot
+! exclamation mark
