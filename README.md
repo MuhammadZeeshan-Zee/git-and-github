@@ -96,15 +96,52 @@ You need to “escape” these characters, so your Markdown application doesn’
 You escape characters in Markdown using a backslash before the character, with no space in between.   
 Syntax:
 
-\ backslash
-` backtick
-* asterisk
-_ underscore
-{} curly braces
-[] square brackets
-() parentheses
-#hash symbol
-+ plus sign
-– minus sign (hyphen)
-. dot
-! exclamation mark
+\ backslash  
+` backtick  
+* asterisk   
+_ underscore  
+{} curly braces  
+[] square brackets  
+() parentheses  
+#hash symbol  
++ plus sign  
+– minus sign (hyphen)  
+. dot  
+! exclamation mark  
+# 17. Lists within a blockquote:  
+Nest your list formatting inside your blockquote formatting.    
+Format your blockquote using a greater-than sign (>) followed by a space, including a sign before every line of your blockquote.  
+Add your list formatting (*) just after your greater-than signs.  
+Example:
+
+> This is a blockquote
+> * This is a list item within a blockquote    
+> * This is a list item within a blockquote    
+> * This is a list item within a blockquote
+> * # 18. Quotes:  
+Add a quotation with the > character at the beginning of each line.  
+Example:
+
+> "I make Jessica Simpson look like a rock scientist." 
+
+> —Tara Reid, actress
+> # Task Lists:  
+To create a task list  
+If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list.  
+It also works in Pull Requests.  
+Example:
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported   
+- [x] list syntax required (any unordered or ordered list supported)   
+- [x] this is a complete item   
+- [ ] this is an incomplete item
+
+- [ ]    
+# Tables:
+You can create tables by assembling a list of words and dividing them with hyphens – (for the first row), and then separating each column with a pipe (|).
+Example:
+
+First Header | Second Header 
+ ------------ | ------------- 
+Content from cell 1 | Content from cell 2 
+Content in the first column | content in the second column
