@@ -64,4 +64,29 @@ You represent any blockquote by preceding the first line of the block quote with
 > This is a blockquote  
 > This is a blockquote  
 > This is a blockquote    
- 
+ # 13.Horizontal rules:
+A horizontal rule is a tiny functional element that you can use to visually split up blocks of text within your Markdown file.  
+We represent a horizontal rule by three or more hyphens (-), asterisks (*), or underscores (_).  
+---  
+* * *    
+___  
+# 14. Code snippets:
+To reference snippets of code as examples, format code snippets using backticks ` that wrap your code snippet.   
+The first backtick “opens” the snippet, and the second backtick “closes” it.  
+
+`This is a code snippet.`  
+# 15. Code blocks:
+Formatting code blocks is useful when you have a bigger chunk of code to include in your Markdown file.  
+Format your code blocks by indenting every line of your code block using one tab or four spaces.  
+And if you’d like to use syntax highlighting, including the language.  
+Example:
+
+```javascript
+
+if (isAwesome){
+
+ return true
+
+}
+
+```
