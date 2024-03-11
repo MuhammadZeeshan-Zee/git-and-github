@@ -1,6 +1,12 @@
 Many things that we use, to make readme file well, first of All   
 # 1.heading:  
 To make heading we use # sumbol with one space and write the text that we want to include in your heading.
+# Heading level 1  
+## Heading level 2  
+### Heading level 3  
+#### Heading level 4  
+##### Heading level 5  
+###### Heading level 6  
 # 2.Paragraphs:
 to make pragrahs we write text of paragraph as etis
 # 3.Italic:
@@ -19,7 +25,7 @@ Use three asterisks (or three underscores) to wrap your word or phrase.
 ***This text is italic and bold.***  
 ___This text is also italic and bold.___  
 # 7.Striking through: 
-Wrap the item in two tildes on each side.  
+Wrap the item in two tildes ~~ on each side.  
 ~~strikethrough~~  
 # 8.Links:
 To link to external websites in Markdown content use two sets of brackets.  
@@ -43,6 +49,19 @@ Sometimes you want bullet points:
 
 *Start a line with a star   
 *Profit!  
-# 11. Ordered lists:
-  
-
+# 11. Ordered lists:  
+Format your ordered lists by preceding each list item with a number, followed by a full stop and then a space.  
+In Markdown, it doesn’t matter which numbers you use to format your list, as the list will always render as 1, 2, 3, and so on.  
+1. Just type a number follow by a dot.  
+2. If you want to add a second item, just type in another number followed by a dot.  
+1. If you make a mistake when typing numbers, fear not, Markdown will correct for you.   
+    1. If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.  
+        1. If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again.   
+            -If need be, you can also add an indented unordered list within an indented numbered one, by pressing a tab key and typing adash.
+# 12. Blockquotes:  
+Sometimes in Markdown, we will want to reference an external source using quotation marks. It is called a blockquote.   
+You represent any blockquote by preceding the first line of the block quote with a greater-than sign or angle bracket (>).  
+> This is a blockquote  
+> This is a blockquote  
+> This is a blockquote  
+ 
